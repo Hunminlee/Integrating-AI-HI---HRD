@@ -2,11 +2,11 @@
 
 This repository contains the code and datasets associated with the paper "Integrating Cross-Human Intelligence and Artificial Intelligence: Through Case Study in Organizational Management." 
 
-The purpose of this work is to explore and classify competency levels within companies by leveraging AI-driven models trained on HRD (Human Resource Development) features.
+AI is revolutionizing HRD, traditionally managed by professionals. The integration of AI-powered tools in both industry and academia marks a significant shift. While AI enhances efficiency in tasks like training and development, its black-box nature poses challenges, particularly in transparency and trust. Our work addresses the gap between human expertise and AI in HRD by analyzing and interpreting advanced models on HRD tasks. Our findings highlight the importance of aligning AI decisions with expert knowledge, improving the transparency and reliability of AI in HRD.
 
 ## Repository Structure
 
-- `data/`: Contains the datasets used for training and testing the models.
+- `DNN_result/`: Contains the datasets used for training and testing the models.
 - `models/`: Includes the trained models and the scripts for training.
 - `notebooks/`: Jupyter notebooks for exploratory data analysis, feature extraction, and model evaluation.
 - `src/`: Source code for data preprocessing, model training, and evaluation.
