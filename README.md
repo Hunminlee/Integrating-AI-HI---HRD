@@ -6,11 +6,12 @@ AI is revolutionizing HRD, traditionally managed by professionals. The integrati
 
 ## Repository Structure
 
-- `DNN_result/`: Contains the datasets used for training and testing the models.
-- `models/`: Includes the trained models and the scripts for training.
-- `notebooks/`: Jupyter notebooks for exploratory data analysis, feature extraction, and model evaluation.
-- `src/`: Source code for data preprocessing, model training, and evaluation.
-- `results/`: Output files, including model performance metrics and visualizations.
+- `Data Analysis/`: Contains the data preprocessing schemes used to understand the data and to train the AI model.
+- `Deep Learning/`: Includes the deep learning models and its training / testing process.
+- `GBMs/`: Includes processes for exploratory data analysis, feature extraction, and machine learning-based model evaluation (i.e., XGBoost, LightGBM, Catboost, etc.).
+- `Images/`: Includes figures used in our manuscript 
+
+* Please note that the code is runnable in Jupyter notebooks and the output results are directly posted.
 
 ## Installation
 
@@ -22,19 +23,7 @@ cd Competency-HRD-Features-AI
 pip install -r requirements.txt
 ```
 
-## To train the model using the provided dataset, run the following command:
-python src/train_model.py --config configs/train_config.yaml
-
-## Evaluating the Model
-After training, you can evaluate the model on the test dataset:
-python src/evaluate_model.py --model models/trained_model.pth --test_data data/test_dataset.csv
-
-## Reproducing Results
-To reproduce the results discussed in Section 4.2 of the paper, execute the corresponding Jupyter notebook:
-jupyter notebook notebooks/evaluate_results.ipynb
-
-## Results
-The results of the model's performance, including accuracy, precision, recall, and F1-score, are available in the results/ directory. Comparative analysis and detailed discussions can be found in the paper.
+### To train the machine learning model using the provided dataset, see the /GBMs folder
 
 This paper is currently under review in Human Resource Development International (HRDI)
 
